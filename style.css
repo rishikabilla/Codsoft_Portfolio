@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4ebd0; 
+    color: #122620; 
+    line-height: 1.6;
+}
+.portfolio {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.top-section {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.my-name .name {
+    font-size: 2rem;
+    color: #b68d40; 
+    font-weight: bold;
+}
+.my-name .work {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #122620;
+}
+.my-name .sodhi {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #6b675b; 
+}
+.profile-img img {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 3px solid #d6ad60; 
+}
+.skills-section {
+    padding: 20px;
+    text-align: center;
+    background: #f4ebd0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.skills-section h2 {
+    font-size: 1.5rem;
+    color: #b68d40; 
+    margin-bottom: 15px;
+}
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+.skills-list li {
+    display: inline-block;
+    background: #122620; 
+    color: #f4ebd0; 
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.projects-section {
+    padding: 20px;
+}
+.projects-section h2 {
+    font-size: 1.5rem;
+    color: #b68d40; 
+    margin-bottom: 15px;
+    text-align: center;
+}
+.project-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 4px solid #d6ad60; 
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.project-item h3 {
+    font-size: 1.2rem;
+    color: #b68d40; 
+    margin-bottom: 5px;
+}
+.project-item p {
+    font-size: 1rem;
+    color: #122620; 
+}
+.contact-section {
+    padding: 20px;
+    text-align: center;
+    background: #f4ebd0; 
+    border-radius: 10px;
+}
+.contact-section h2 {
+    font-size: 1.5rem;
+    color: #b68d40; 
+    margin-bottom: 10px;
+}
+.contact-section p {
+    font-size: 1rem;
+    color: #122620; 
+}
+.contact-section a {
+    color: #d6ad60; 
+    text-decoration: none;
+}
+.contact-section a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .skills-list li {
+        display: block;
+        margin: 5px auto;
+    }
+
+    .project-item {
+        padding: 15px;
+    }
+}
